@@ -16,5 +16,27 @@ namespace esercizio_hotel
         {
             InitializeComponent();
         }
+
+        private void lbl_n1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_invia_Click(object sender, EventArgs e)
+        {
+            int ngiorni;
+            ngiorni = 0;
+
+            if (ngiorni == 2)
+            {
+                Console.WriteLine("hai prenotato per 2 giorni");
+                ngiorni = ngiorni + 1;
+            }
+        }
+
+        private void cmb_n1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

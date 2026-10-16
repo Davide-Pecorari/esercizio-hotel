@@ -56,17 +56,18 @@
             // lbl_n1
             // 
             this.lbl_n1.AutoSize = true;
-            this.lbl_n1.Location = new System.Drawing.Point(14, 43);
+            this.lbl_n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_n1.Location = new System.Drawing.Point(3, 29);
             this.lbl_n1.Name = "lbl_n1";
-            this.lbl_n1.Size = new System.Drawing.Size(232, 13);
+            this.lbl_n1.Size = new System.Drawing.Size(495, 20);
             this.lbl_n1.TabIndex = 1;
-            this.lbl_n1.Text = "Benvenuto all\'hotel, inserisci dati per unirti a noi!";
+            this.lbl_n1.Text = "Benvenuto al crystal peco hotel, inserisci dati per unirti a noi!";
             this.lbl_n1.Click += new System.EventHandler(this.lbl_n1_Click);
             // 
             // chk_n1
             // 
             this.chk_n1.AutoSize = true;
-            this.chk_n1.Location = new System.Drawing.Point(310, 175);
+            this.chk_n1.Location = new System.Drawing.Point(310, 194);
             this.chk_n1.Name = "chk_n1";
             this.chk_n1.Size = new System.Drawing.Size(128, 17);
             this.chk_n1.TabIndex = 3;
@@ -100,7 +101,7 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(310, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(310, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(182, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -154,7 +155,7 @@
             // lbl_n4
             // 
             this.lbl_n4.AutoSize = true;
-            this.lbl_n4.Location = new System.Drawing.Point(307, 195);
+            this.lbl_n4.Location = new System.Drawing.Point(307, 214);
             this.lbl_n4.Name = "lbl_n4";
             this.lbl_n4.Size = new System.Drawing.Size(185, 13);
             this.lbl_n4.TabIndex = 11;

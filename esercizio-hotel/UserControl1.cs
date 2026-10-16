@@ -25,12 +25,14 @@ namespace esercizio_hotel
         private void btn_invia_Click(object sender, EventArgs e)
         {
             int ngiorni;
-            ngiorni = 0;
+            string stanza, stagione, parcheggio;
 
-            if (ngiorni == 2)
+            ngiorni = 0;
+            stagione = cmb_n1.SelectedItem.ToString();
+
+            if (stagione == "bassa stagione")
             {
-                Console.WriteLine("hai prenotato per 2 giorni");
-                ngiorni = ngiorni + 1;
+                if (stanza == )
             }
         }
 
